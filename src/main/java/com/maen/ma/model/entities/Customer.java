@@ -3,6 +3,7 @@ package com.maen.ma.model.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.Date;
 
 //Entidad: Objeto que contiene atributos particulares.
@@ -13,7 +14,7 @@ import java.util.Date;
 @NoArgsConstructor //Constructor sin parametros.
 @Entity //Definir que es una entidad(Objecto).
 @Table(name = "Customer") //Mapeo hacia la tabla de la DB.
-public class Customer {
+public class Customer implements Serializable {
 
     //Atributos.
     @Id
