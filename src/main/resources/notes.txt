@@ -1,0 +1,5 @@
+1. model
+   dao: Hace referencia a la capa de persitencia.
+   entities
+2. service: Logica de negocio.
+3.
